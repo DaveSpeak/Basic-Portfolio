@@ -86,7 +86,7 @@ a:hover,a:focus,a:active {
 	position:fixed;
 	top:130px;
 	width:650px;
-	height:70%;
+	height:80%;
 	padding: 0 40px 0 40px;
 	margin:0 0 0 10%;
 	background-color:#fff;
@@ -142,7 +142,7 @@ a:hover,a:focus,a:active {
 	left: 100px;
 }
 .footer {
-	position:absolute;
+	position:fixed;
 	bottom:0;
 	height:90px;
 	width:100%;
@@ -169,6 +169,18 @@ a:hover,a:focus,a:active {
 	height:30px;
 	background-color:#4aaaa5;
 	color:#fff;
+}
+#portfolio-image {
+	text-align:center;
+	width:275px;
+	height:60px;
+	background-color:#4aaaa5;
+	color:#fff;
+	font-family:'Georgia',Times, Times New Roman, serif;
+	margin:0 0 0 0;
+	padding:1px 0 0 0;
+	border:0 0 0 0;
+
 }
 /*.wrapper {
 	width: 600px;
