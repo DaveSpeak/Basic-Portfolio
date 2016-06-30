@@ -28,6 +28,12 @@ h4 {
 	font-family:'Georgia',Times, Times New Roman, serif;
 }
 
+h3 {
+	color:#fff;
+	font-family:'Georgia',Times, Times New Roman, serif;
+	padding:0px;
+	margin:0;
+}
 a:link {
    color: #777777;
    text-decoration: none;
@@ -169,6 +175,44 @@ a:hover,a:focus,a:active {
 	height:30px;
 	background-color:#4aaaa5;
 	color:#fff;
+}
+.portfolio-image-L {
+	position:relative;
+	float:left;
+	margin:20px 0 0 0;
+	z-index: 1;
+}
+.portfolio-image-R {
+	position:relative;
+	float:right;
+	margin:-40px 0 60px 0;
+	z-index: 1;
+}
+#image-container {
+	float:right;
+	position: relative;
+	text-align:center;
+	width:275px;
+	height:60px;
+	background-color:#4aaaa5;
+	color:#fff;
+	left:-293px;
+	top:155px;
+	padding-top:15px;
+	z-index: 2;
+}
+#image-container-2 {
+	float:right;
+	position: relative;
+	text-align:center;
+	width:275px;
+	height:60px;
+	background-color:#4aaaa5;
+	color:#fff;
+	left:275px;
+	top:-70px;
+	padding-top:15px;
+	z-index: 2;
 }
 /*.wrapper {
 	width: 600px;
