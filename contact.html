@@ -1,13 +1,44 @@
 <!doctype html>
 <html>
 	<head>
+<<<<<<< HEAD
 
 		<title>Student-Bio</title>
+=======
+		<title>Contact</title>
+>>>>>>> d781e981b8b892d2a48d9ab49c22dc3beb77fbbd
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	</head>
 	<body>
-		<div class="header">
+	<div class="wrapper">
+		<div class="main">
+			<section id="main-header">
+				<h1>Contact</h1>
+			</section>
+			<form action="mailto:davespeak@aol.com" method=post enctype="text/plain">
+				<br>Name<br>
+				<input id="inputbox" type="text" name="name" placeholder="John Smith"><br>
+				<br>Email<br>
+				<input id="inputbox" type="text" name="mail" placeholder="example@gmail.com"><br>
+				<label for="message"><br>Message</label><br>
+      			<textarea name="message" id="emailMessage"></textarea><br>
+      			<input id="submitbox" type="submit" value="Submit">
+				<br>
+			</form>
+		</div>
+		<div class="side-bar">
+			<section id="side-bar-header">
+				<h4>Connect with Me</h4>
+			</section>
+			<br>
+			<div class="images">
+				<a href="http://www.github.com"><img id="side-image" src="assets/images/Github Icon.png" alt="Github Icon"/></a>
+				<a href="http://www.linkedin.com"><img id="side-image" src="assets/images/LinkedIn Icon.png" alt="LinkedIN Icon"/></a>
+				<a href="http://www.stackoverflow.com"><img id="side-image" src="assets/images/StackOverflow Icon.png" alt="StackOverflow Icon"/></a>
+			</div>
+		</div>
+		<div class="push">
 			<div id="name">
 			Dave Speaker
 			</div>
@@ -21,35 +52,10 @@
 				<a href="index.html">About</a>
 			</div>
 		</div>
-
-		<div class="main">
-			<section id="main-header">
-				<h1>Contact</h1>
-			</section>
-			<form action="mailto:davespeak@gmail.com" method=post enctype="text/plain">
-				<br>Name<br>
-				<input id="inputbox" type="text" name="name" placeholder="John Smith"><br>
-				<br>Email<br>
-				<input id="inputbox" type="text" name="mail" placeholder="example@gmail.com"><br>
-				<label for="message"><br>Message</label><br>
-      			<textarea name="message" id="emailMessage"></textarea><br>
-      			<input id="submitbox" type="submit" value="Submit">
-				<br>
-			</form>
-		</div>
-		<div class="side-bar">
-			<section id="side-bar-header">
-				<h4>Connect with Me<h4>
-			</section>
-			<br>
-			<div class="images">
-				<a href="http://www.github.com"><img id="side-image" src="assets/images/Github Icon.png" alt="Github Icon" width="62" height="62"/></a>
-				<a href="http://www.linkedin.com"><img id="side-image" src="assets/images/LinkedIn Icon.png" alt="LinkedIN Icon" width="62" height="62"/></a>
-				<a href="http://www.stackoverflow.com"><img id="side-image" src="assets/images/StackOverflow Icon.png" alt="StackOverflow Icon" width="62" height="62"/></a>
+	</div>		
+ 			<div class="footer">
+				<h6>&copy Copyright 2016 Dave Speaker</h6>
 			</div>
-		</div>
-		<div class="footer">
-		<h6>&copy Copyright 2016 Dave Speaker<h6>
-		</div>
+
 	</body>
 </html>
