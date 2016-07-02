@@ -243,47 +243,6 @@ img:hover, img:focus, img:active, input:hover, input:focus, input:active {
 	height:60px;
 	z-index: 2;
 }
-<<<<<<< HEAD
-/*#image-container-2 {
-	float:right;
-	position: relative;
-	text-align:center;
-	width:275px;
-	height:60px;
-	background-color:#4aaaa5;
-	color:#fff;
-	left:275px;
-	top:-70px;
-	padding-top:15px;
-	z-index: 2;
-<<<<<<< HEAD
-}
-#portfolio-image {
-	text-align:center;
-	width:275px;
-	height:60px;
-	background-color:#4aaaa5;
-	color:#fff;
-	font-family:'Georgia',Times, Times New Roman, serif;
-	margin:0 0 0 0;
-	padding:1px 0 0 0;
-	border:0 0 0 0;
-
-}
-/*.wrapper {
-	width: 600px;
-	margin: 0px auto;
-	padding: 20px;
-}*/
-/*h1 {
-	font-size: 36px;
-	line-height: 45px;
-	margin-bottom: 20px;
-=======
->>>>>>> d781e981b8b892d2a48d9ab49c22dc3beb77fbbd
-}*/
-=======
->>>>>>> d997156694c88cc2da6e90ecd7196051de04caf1
 p {
 	font-size: 18px;
 	line-height: 30px;
