@@ -4,17 +4,16 @@
 }
 html, body {
 	height:100%;
+	width:100%;
 	font-size: 20px;
 	line-height: 25px;
 	color: #777777;
 	font-family:'Arial','Helvetica Neue',  Helvetica, sans-serif;
 	background-image:url(../images/fresh_snow.png);
-	width:100%;
 	overflow:auto;
 }
 .wrapper {
 	min-height:100%;
-	height:auto;
 	height:100%;
 	width:100%;
 	margin:0 auto -4.5em;
@@ -23,7 +22,7 @@ h1 {
 	color:#4aaaa5;
 	font-family:'Georgia',Times, Times New Roman, serif;
 	display: block;
-    font-size: 2em;
+    font-size: 1.5em;
     -webkit-margin-before: 0.67em;
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
@@ -42,13 +41,18 @@ h3 {
 	padding:0px;
 	margin:0;
 }
+ul li {
+	display:inline;
+	white-space:pre;
+}
+
 a:link {
    color: #777777;
    text-decoration: none;
 }
 
 a:visited {
-   color: #412C84;
+   color: #aaaaaa;
 }
 
 a:hover,a:focus,a:active {
@@ -58,43 +62,28 @@ a:hover,a:focus,a:active {
 img:hover, img:focus, img:active, input:hover, input:focus, input:active {
 	outline: 3px solid #4aaaa5;
 }
-.header {
-	position:fixed;
-	top:0;
-	height:90px;
-	width:100%;
-	color:#fff;
-	font-weight:550;
-	background-color:#ffffff;
-	border-color:#cccccc;
-	border-bottom-width:2px;
-	border-bottom-style:solid;
-	padding: 0 10% 0 10%;
-	margin:0;
-	font-family:'Georgia',Times, Times New Roman, serif;
-	z-index:10;
-}
 #name {
 	float:left;
 	height:100%;
-	width:250px;
+	width:275px;
 	color:#fff;
 	background-color:#4aaaa5;
 	text-align:center;
 	padding:30px;
 	font-size:30px;
+	font-weight:600;
 }
 #header-link {
 	float:right;
 	color:#777777;
-	font-family:Arial;
+	font-family:'Arial','Helvetica Neue',  Helvetica, sans-serif;
 	padding:0 20px 0 20px;
 	margin: 30px 0 30px 0;
 }
 #header-link-center {
 	float:right;
 	color:#777777;
-	font-family:Arial;
+	font-family:'Arial','Helvetica Neue',  Helvetica, sans-serif;
 	border-color:#ccc;
 	border-style:solid;
 	border-width: 0 2px 0 2px;
@@ -107,7 +96,7 @@ img:hover, img:focus, img:active, input:hover, input:focus, input:active {
 	line-height: 30px;
 	top:130px;
 	width:650px;
-	height:75%;
+	height:70%;
 	padding: 0 30px 0 30px;
 	margin:0 0 0 10%;
 	background-color:#fff;
@@ -173,7 +162,7 @@ img:hover, img:focus, img:active, input:hover, input:focus, input:active {
 	height:90px;
 	width:100%;
 	font-size:14px;
-	color:#777777;
+	color:#cccccc;
 	text-align:center;
 	font-family:'Arial','Helvetica Neue',  Helvetica, sans-serif;
 	background-color:#666666;
@@ -184,7 +173,7 @@ img:hover, img:focus, img:active, input:hover, input:focus, input:active {
 	padding: 30px 0 0 0;
 
 }
-.push {
+.header {
 	height:90px;
 	width:100%;
 	font-family:'Georgia',Times, Times New Roman, serif;
@@ -196,10 +185,12 @@ img:hover, img:focus, img:active, input:hover, input:focus, input:active {
 }
 #inputbox {
 	width:100%;
+	height:35px;
+	padding:0 0 0 10px;
 }
 #emailMessage {
 	width:100%;
-	height:300px;
+	height:200px;
 }
 #submitbox {
 	width:90px;
